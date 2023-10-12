@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bookmark landing page</title>
+    <link rel="icon" href="images/favicon-32x32.png">
+    <link rel="stylesheet" href="css/app.css">
+</head>
+<body style="height: 5000px;" class="bg-dark">
+    <header>
+        <nav class="navbar fixed-top navbar-expand-lg bg-body-tertiary">
+            <div class="container">
+              <a class="navbar-brand" href="#">
+                <img src="images/logo-bookmark.svg" alt="">
+              </a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll" aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse d-flex justify-content-end navbar-collapse" id="navbarScroll">
+                <ul class="navbar-nav my-2 my-lg-0 navbar-nav-scroll" style="--bs-scroll-height: 100px;">
+                  <li class="nav-item">
+                    <a class="nav-link text-uppercase" aria-current="page" href="#">Features</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link text-uppercase" href="#">Pricing</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link text-uppercase" href="#">Contant</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="btn btn-outline-danger">login</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </nav>
+    </header>
+    <section style="margin-top: 150px;">
+        <div class="container">
+            <div class="row">
+                <div class="col-5">
+                    <h3 class="text-bold">A Simple Bookmark <br>Manager</h3>
+                    <p class="text-black-50 my-4">A clean and simple interface to organize your favourite websites. Open a new 
+                        browser tab and see your sites load instantly. Try it for free.
+                    </p> 
+                    <a href="" class="btn btn-primary p-2">Get it on Chrome</a>
+                    <a href="" class="btn btn-light p-2 mx-2 shadow">Get it on Firefox</a>
+                </div>
+                <div class="col-1"></div>
+                <div class="col-6">
+                    <img src="images/illustration-features-tab-1.svg" alt="">
+                </div>
+            </div>
+        </div>
+    </section>
+    <section style="margin-top: 150px;">
+        <div class="container my-5">
+            <div class="row">
+                <div class="col-3"></div>
+                <div class="col-6 text-center">
+                    <h1>Features</h1>    
+                    <p class="text-black-50">Our aim is to make it quick and easy for you to access your favourite websites. 
+                        Your bookmarks sync between your devices so you can access them on the go.
+                    </p>
+                </div>
+                <div class="col-3"></div>
+            </div>
+        </div>
+    </section>
+    <section>
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <nav>
+                        <div class="nav nav-tabs justify-content-center" id="nav-tab" role="tablist">
+                          <button class="nav-link active" id="nav-home-tab" data-bs-toggle="tab" data-bs-target="#nav-home" type="button" role="tab" aria-controls="nav-home" aria-selected="true">Simple Bookmarking</button>
+                          <button class="nav-link" id="nav-profile-tab" data-bs-toggle="tab" data-bs-target="#nav-profile" type="button" role="tab" aria-controls="nav-profile" aria-selected="false">Speedy Searching</button>
+                          <button class="nav-link" id="nav-contact-tab" data-bs-toggle="tab" data-bs-target="#nav-contact" type="button" role="tab" aria-controls="nav-contact" aria-selected="false">Easy Sharing</button>
+                        </div>
+                      </nav>
+                      <div class="tab-content" id="nav-tabContent">
+                        <div class="tab-pane fade show active" id="nav-home" role="tabpanel" aria-labelledby="nav-home-tab" tabindex="0">
+                            <div class="row " style="margin-top:100px">
+                                    <div class="col-6">
+                                        <img src="images/illustration-features-tab-1.svg" alt="">
+                                    </div>
+                                    <div class="col-1"></div>
+                                    <div class="col-5 ">
+                                        <h3 class="my-5">Bookmark in one click</h3>
+                                        <p class="text-black-50">Organize your bookmarks however you like. Our simple drag-and-drop interface 
+                                            gives you complete control over how you manage your favourite sites.
+                                        </p>
+                                        <a class="btn btn-primary mt-5" href="">More Info</a>
+                                    </div>
+                                </div>
+                        </div>
+                        <div class="tab-pane fade" id="nav-profile" role="tabpanel" aria-labelledby="nav-profile-tab" tabindex="0">
+                            <div class="row " style="margin-top:100px">
+                                <div class="col-6">
+                                    <img src="images/illustration-features-tab-2.svg" alt="">
+                                </div>
+                                <div class="col-1"></div>
+                                <div class="col-5 ">
+                                    <h3 class="my-5">Intelligent search</h3>
+                                    <p class="text-black-50">Our powerful search feature will help you find saved sites in no time at all. 
+                                        No need to trawl through all of your bookmarks.
+                                    </p>
+                                    <a class="btn btn-primary mt-5" href="">More Info</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="tab-pane fade" id="nav-contact" role="tabpanel" aria-labelledby="nav-contact-tab" tabindex="0">
+                            <div class="row " style="margin-top:100px">
+                                <div class="col-6">
+                                    <img src="images/illustration-features-tab-3.svg" alt="">
+                                </div>
+                                <div class="col-1"></div>
+                                <div class="col-5 ">
+                                    <h3 class="my-5">Share your bookmarksIntelligent search</h3>
+
+                                    <p class="text-black-50">Easily share your bookmarks and collections with others. Create a shareable 
+                                        link that you can send at the click of a button.
+                                    </p>
+                                    <a class="btn btn-primary mt-5" href="">More Info</a>
+                                </div>
+                            </div>
+                        </div>
+                      </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section style="margin-top: 150px;">
+        <div class="container my-5">
+            <div class="row">
+                <div class="col-3"></div>
+                <div class="col-6 text-center">
+                    <h1>Download the extension</h1>   
+                    <p class="text-black-50">We’ve got more browsers in the pipeline. Please do let us know if you’ve 
+                        got a favourite you’d like us to prioritize.
+                    </p>
+                </div>
+                <div class="col-3"></div>
+            </div>
+        </div>
+    </section>
+    <section>
+        <div class="row">
+            <div class="col-2"></div>
+            <div class="col-8 d-flex justify-content-between">
+                <div class="card shadow text-center justify-content-center" style="width: 15rem;">
+                    <img src="images/logo-chrome.svg"  class="card-img-top mx-auto my-3 w-50" alt="...">
+                    <div class="card-body">
+                        <h3>Add to Chrome</h3>
+                        <p class="text-black-50">Minimum version 62</p>
+                        <a href="" class="btn btn-primary mt-3">Add & Install Extension</a>
+                    </div>
+                </div>
+                <div class="card shadow  text-center justify-content-center" style="width: 15rem;">
+                    <img src="images/logo-firefox.svg"  class="card-img-top mx-auto my-3 w-50" alt="...">
+                    <div class="card-body">
+                        <h3>Add to Firefox</h3>
+                        <p class="text-black-50">Minimum version 55</p>
+                        <a href="" class="btn btn-primary mt-3">Add & Install Extension</a>
+                    </div>
+                </div>
+                <div class="card shadow text-center justify-content-center" style="width: 15rem;">
+                    <img src="images/logo-opera.svg"  class="card-img-top mx-auto my-3 w-50" alt="...">
+                    <div class="card-body">
+                        <h3>Add to Opera</h3>
+                        <p class="text-black-50">Minimum version 46</p>
+                        <a href="" class="btn btn-primary mt-3">Add & Install Extension</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-2"></div>
+        </div>
+    </section>
+
+
+<script src="/node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

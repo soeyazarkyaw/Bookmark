@@ -1,0 +1,13 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;500&family=Rubik&display=swap');
+
+$font-family-sans-serif: 'Rubik', sans-serif;
+$navbar-nav-link-padding-x : 1.5rem;
+$btn-padding-x: 2rem;
+$font-weight-lighter:         lighter;
+$font-weight-light:           300;
+
+$primary:  hsl(231, 69%, 60%);
+$dark: #b1acac;
+
+
+@import "../node_modules/bootstrap/scss/bootstrap.scss"
